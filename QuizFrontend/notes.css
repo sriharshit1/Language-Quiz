@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue gradient */
+    color: #fff;
+    
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    width: 100%;
+    z-index: 5px;
+}
+
+nav h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.content {
+    padding-top: 60px; /* To prevent content from being hidden under the nav bar */
+    height: 100vh;
+}
+
+#java-note{
+    font-weight: 600;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 8px;
+    position: relative;
+    top: -53px;
+    
+    
+}
+
+footer { 
+    background: rgba(0, 0, 0, 0.8);
+     padding: 10px 0;  
+     width: 100%; 
+     bottom: 0; 
+     left: 0; 
+     text-align: center; 
+     color: #fff;
+}

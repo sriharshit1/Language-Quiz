@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz to learn computer languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="landing-page">
+        <div class="wrapper">
+            <div class="flex-content">
+                <h1 class="vacation-heading">Welcome to Master Quiz</h1>
+                <a href="#quiz-packages" class="btn">Start Now</a>
+            </div>
+        </div>
+    </section>
+
+    <header class="quiz-header" id="quiz-header">
+        <h1 class="heading">Master Quiz</h1>
+    </header>
+
+    <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#quiz-packages">Quiz</a>
+        <a href="#Performer">Top Performers</a>
+        <a href="#notes">Notes</a>
+    </nav>
+
+    <section class="quiz-packages-section" id="quiz-packages">
+        <h1 class="quiz-heading">Coding Quiz</h1>
+        <p class="quiz-text">A coding quiz is an engaging way to test and improve your programming skills across various languages and technologies.Whether you're a beginner or an experienced developer, coding quizzes are an excellent tool for learning and self-assessment in a fun and interactive format.</p>
+        <div class="package-wrapper">
+            <div class="package-card">
+                <img src=".//images/java.jpg" alt="">
+                <p class="card-heading">Java</p>
+                <p class="card-text">Java is a powerful, high-level programming language that is widely used for building web applications,mobile apps,etc...</p>
+                <p class="card-heading">$10</p>
+                <button class="btn" onclick="startQuiz('Java')">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src=".//images/python.jpg" alt="">
+                <p class="card-heading">Python</p>
+                <p class="card-text">Python is a versatile and beginner-friendly programming language known for its readability and efficiency. </p>
+                <p class="card-heading">$10</p>
+                <button class="btn" onclick="startQuiz('python')">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src=".//images/js.png" alt="">
+                <p class="card-heading">JavaScript</p>
+                <p class="card-text">JavaScript is a dynamic, high-level programming language that is essential for creating interactive and responsive web applications.</p>
+                <p class="card-heading">$10</p>
+                <button class="btn" onclick="startQuiz('javaScript')">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src=".//images/net.png" alt="">
+                <p class="card-heading">.Net</p>
+                <p class="card-text">.NET is a versatile and powerful framework developed by Microsoft for building a wide range of applications.</p>
+                <p class="card-heading">$10</p>
+                <button class="btn" onclick="startQuiz('.Net')">Take Quiz</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="Performer-quiz-section" id="Performer">
+        <h1 class="quiz-heading">Top Performer</h1>
+        <p class="quiz-text">Our Top Performes are brightest mind who have consistently excelled in our quizes,showing
+            ther expertise and dedicaition.They represent the pinnacle of knowledge acreoos various subjects like
+            Java,Python and more with impressive Score ,they set the benchmark for other to follow and inspire the
+            entire community to strive for excellence</p>
+        <div class="image-card">
+            <img src=".//images/m1.jpeg" alt="">
+            <img src=".//images/" alt="">
+            <img src=".//image/m3.jpeg" alt="">
+            <img src=".//image/m4.jpeg" alt="">
+            <img src=".//image/m5.jpeg" alt="">
+            <img src=".//image/m6.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="notes-section" id="notes">
+        <h1 class="quiz-heading">Subject Notes</h1>
+        <p class="quiz-text">Here, are some notes that polishes your knowledge and help you in revising the core concepts</p>
+        <div class="notes-div">
+            <div class="notes-wrapper">
+                <img src=".//images/java.jpg" alt="" onclick="OpeningNotes('java')">
+            </div>
+            <div class="notes-wrapper">
+                <img src=".//images/compiler.png" alt="" onclick="OpeningNotes('compiler')">
+            </div>
+            <div class="notes-wrapper">
+                <img src=".//images/spring.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src=".//images/react.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src=".//images/dev.jpg" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src=".//images/python.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer-section">
+        <small>All Rights Reserved</small>
+        <small>Developed & Maintained By--Harshit Srivastava</small>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
